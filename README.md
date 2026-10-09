@@ -94,11 +94,3 @@ cumcm-multi-agent/
 `tools/reference_bridge.py` 用于文件哈希校验、书目匹配和稳定来源 ID 合并，主张是否被原文支持仍需核验。新的检索产物保存在独占任务目录，按 `templates/literature-evidence.md` 记录定位、适用条件与冲突。
 
 论文写作的内容框架与配图指南在 `paper-writing`、`visualization` Skill 中。约 30 页是可调整的写作目标，实际格式和工具使用以当届规则和用户授权为准。
-
-## GitHub 上传版说明
-
-此目录是从本地工作区整理出的独立副本。保留 Agent 框架、教学知识卡、代码和模板；正式赛题、私有文献、历史实验与论文、虚拟环境、缓存、本机设置和旧日志未打入上传包。文献工具测试使用明确标为合成的夹具，下载后可独立运行。
-
-`.gitignore` 排除本地数据、运行结果和环境文件；`.gitattributes` 统一文本换行。文件清单与哈希见 `MANIFEST.sha256.json`，本次运行结果见 `validation/TEST_REPORT.md`。
-
-上传步骤见 [docs/GITHUB_UPLOAD.md](docs/GITHUB_UPLOAD.md)。仓库所有者可按自己的发布计划添加 `LICENSE`。
