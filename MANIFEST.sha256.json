@@ -3,7 +3,7 @@
   "snapshot_date": "2026-10-09",
   "scope": "Public agent framework copy; local competition data, papers, run outputs and environments excluded",
   "file_count": 81,
-  "total_bytes": 181050,
+  "total_bytes": 181057,
   "files": [
     {
       "path": ".agents/skills/algorithm-implementation/SKILL.md",
@@ -102,8 +102,8 @@
     },
     {
       "path": ".gitattributes",
-      "sha256": "8170bf056237b205db884e6c4de300db983354d6b99f4b320a0ff2594a14f677",
-      "bytes": 177
+      "sha256": "47fcadca062e62386750791fa5bd37111432c122cae118d1384ddc9dd6135f69",
+      "bytes": 184
     },
     {
       "path": ".gitignore",
