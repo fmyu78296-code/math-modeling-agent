@@ -3,7 +3,7 @@
   "snapshot_date": "2026-10-09",
   "scope": "Public agent framework copy; local competition data, papers, run outputs and environments excluded",
   "file_count": 81,
-  "total_bytes": 181057,
+  "total_bytes": 184816,
   "files": [
     {
       "path": ".agents/skills/algorithm-implementation/SKILL.md",
@@ -297,8 +297,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "a9d9b872ee060f0316e424604e57433467c569d2b287c6114e8572697a4ba0ec",
-      "bytes": 7035
+      "sha256": "8cb990f2c6cab76148d0539326e8ba76737c7f7c9c3c9da99d8c2a943e7ce9f2",
+      "bytes": 10794
     },
     {
       "path": "refs/catalog.csv",
