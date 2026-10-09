@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "routes": {
+    "prepare": {
+      "agent": "researcher",
+      "prompt": "prompts/researcher.md",
+      "output_base": "knowledge/runs",
+      "skills": [
+        "problem-analysis",
+        "literature-evidence",
+        "model-selection",
+        "mathematical-modeling",
+        "algorithm-implementation",
+        "experiment-analysis",
+        "paper-writing"
+      ],
+      "conditional_skills": []
+    },
+    "solve": {
+      "agent": "solver",
+      "prompt": "prompts/solver.md",
+      "output_base": "competition/runs",
+      "skills": [
+        "problem-analysis",
+        "data-processing",
+        "literature-evidence",
+        "model-selection",
+        "mathematical-modeling",
+        "algorithm-implementation",
+        "experiment-analysis",
+        "visualization",
+        "paper-writing"
+      ],
+      "conditional_skills": [
+        {
+          "skill": "eeg-c-task",
+          "when": "Only after verifying the 2026 C visual-cognition EEG problem or an equivalent EEG data layout"
+        }
+      ]
+    },
+    "review": {
+      "agent": "reviewer",
+      "prompt": "prompts/reviewer.md",
+      "output_base": "validation/runs",
+      "skills": [
+        "literature-evidence",
+        "experiment-analysis",
+        "paper-writing"
+      ],
+      "conditional_skills": [
+        {
+          "skill": "independent-validation",
+          "when": "Reviewing existing model, numerical, code, or paper claims independently"
+        },
+        {
+          "skill": "submission-audit",
+          "when": "A final candidate package and current official rules are available for pre-submission review"
+        }
+      ]
+    }
+  }
+}

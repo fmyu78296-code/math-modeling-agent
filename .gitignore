@@ -1,0 +1,46 @@
+# Python environments and caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local tools, credentials and OS files
+.claude/
+.aws/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Raw competition inputs and independent run outputs
+/competition/input/*
+!/competition/input/README.md
+/competition/runs/*
+!/competition/runs/README.md
+/knowledge/runs/*
+!/knowledge/runs/README.md
+/validation/runs/*
+!/validation/runs/README.md
+
+# Local reference archives and metadata
+/refs/*
+!/refs/README.md
+!/refs/catalog.csv
+!/refs/file_hashes.json
+
+# Temporary work, exports and builds
+/work/
+/dist/
+/build/
+*.egg-info/

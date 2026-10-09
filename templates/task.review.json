@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "task_id": "review-demo",
+  "mode": "review",
+  "inputs": [
+    "competition/runs/demo/metrics.json",
+    "competition/runs/demo/paper.md",
+    "competition/runs/demo/provenance.json"
+  ],
+  "depends_on": [
+    "demo"
+  ],
+  "output_dir": "validation/runs/review-demo",
+  "acceptance": [
+    "核对正文指标和实际结果",
+    "报告检查范围与局限"
+  ],
+  "budget_minutes": 10
+}

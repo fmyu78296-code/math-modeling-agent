@@ -1,0 +1,16 @@
+{
+  "seed": 2026,
+  "train_end": 18,
+  "validation_end": 24,
+  "candidates": [
+    "mean",
+    "last",
+    "linear"
+  ],
+  "selection_metric": "rmse",
+  "sensitivity_factors": [
+    0.9,
+    1,
+    1.1
+  ]
+}

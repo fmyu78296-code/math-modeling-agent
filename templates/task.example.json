@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "task_id": "demo",
+  "mode": "solve",
+  "inputs": [
+    "competition/demo/problem.md",
+    "competition/demo/demand.csv",
+    "competition/demo/config.json"
+  ],
+  "depends_on": [],
+  "output_dir": "competition/runs/demo",
+  "acceptance": [
+    "真实运行三种候选并冻结验证选型",
+    "保存预测、指标、图表与证据哈希"
+  ],
+  "budget_minutes": 5
+}

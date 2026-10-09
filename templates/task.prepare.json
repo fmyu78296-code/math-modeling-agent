@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "task_id": "prepare-001",
+  "mode": "prepare",
+  "inputs": [
+    "knowledge/cards/linear-trend.md",
+    "algorithms/linear.py"
+  ],
+  "depends_on": [],
+  "output_dir": "knowledge/runs/prepare-001",
+  "acceptance": [
+    "比较数学公式与实现",
+    "说明适用条件与失败模式"
+  ],
+  "budget_minutes": 15
+}

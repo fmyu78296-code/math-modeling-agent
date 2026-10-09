@@ -1,0 +1,4 @@
+# 项目配置，信任项目后加载；模型继承用户设置。
+[agents]
+enabled = true
+max_concurrent_threads_per_session = 3

@@ -1,0 +1,15 @@
+# 旧式角色注册；config_file 相对本配置文件。
+[agents]
+max_threads = 3
+
+[agents.researcher]
+description = "备赛研究、知识卡和算法模板。"
+config_file = "agents/researcher.toml"
+
+[agents.solver]
+description = "正式赛题、模型与实验求解。"
+config_file = "agents/solver.toml"
+
+[agents.reviewer]
+description = "只读证据审阅。"
+config_file = "agents/reviewer.toml"
